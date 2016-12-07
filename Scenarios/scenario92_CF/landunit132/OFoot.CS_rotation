@@ -1,0 +1,43 @@
+[rotation]
+years=1
+sowing:count=2
+details_URL=/farm/51/scenario/92/landunit/132
+description=Potato test field
+[sowing:1]
+ID=6627b9d2-877b-4540-9f56-8a58d64f5abe
+event_synchronization=relative_date
+event_date=106
+description=Manual planting with hoe or shovel.
+name=Planting, manual
+start_hour=0
+duration=6
+terminate_crop=false
+NRCS_field_op=Planting, manual
+crop=../../../../Database/crop/potato.crp
+management=283.CS_management
+seeding_rate=20
+emergence_rate=100
+sowing_depth=5
+date=106
+typical_emergence_date=121
+typical_canopy_max_date=177
+typical_maturity_date=0
+[sowing:2]
+ID=d88a22ab-919f-45c5-af8f-45671123d18e
+event_synchronization=relative_date
+event_date=291
+description=Brillion Seeder with corregated packer rollers.
+name=Seeder, corrugated packer
+start_hour=0
+duration=6
+terminate_crop=false
+NRCS_field_op=Seeder, corrugated packer
+crop=../../../../Database/crop/crimson_clover_cover.crp
+management=284.CS_management
+seeding_rate=20
+emergence_rate=100
+sowing_depth=5
+date=291
+typical_emergence_date=296
+typical_canopy_max_date=1046
+typical_maturity_date=0

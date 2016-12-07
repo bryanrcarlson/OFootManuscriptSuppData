@@ -1,0 +1,6 @@
+[management]
+tillage:count=0
+harvest:count=0
+biomatter_application:count=0
+residue:count=0
+automatic_irrigation:count=0
